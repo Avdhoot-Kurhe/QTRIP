@@ -24,7 +24,7 @@ public class DP {
         List<List> outputList = new ArrayList<List>();
 
         FileInputStream excelFile = new FileInputStream(new File(
-                "/home/crio-user/workspace/vishal-kumar-criodo-ME_QTRIP_QA_V2/app/src/test/resources/DatasetsforQTrip.xlsx"));
+                "/home/crio-user/workspace/avdhoot-crio-ME_QTRIP_QA_V2/app/src/test/resources/DatasetsforQTrip.xlsx"));
         Workbook workbook = new XSSFWorkbook(excelFile);
         Sheet selectedSheet =  workbook.getSheet(m.getName());
         Iterator<Row> iterator = selectedSheet.iterator();
